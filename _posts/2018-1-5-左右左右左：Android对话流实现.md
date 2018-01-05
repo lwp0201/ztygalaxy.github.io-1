@@ -12,7 +12,7 @@ tags: [Android]
 
 **这里以最近写的Demo 小炮为例，效果如下图（参考现有语音助手UI，未设计头像与对话框）：**
 
-![640](https://github.com/ztygalaxy/ztygalaxy.github.io/blob/master/assets/img/thumbnails/640.jpg)
+![Demo](https://raw.githubusercontent.com/ztygalaxy/ztygalaxy.github.io/master/assets/img/thumbnails/640.jpg)
 
 **一、布局文件**
 
@@ -60,7 +60,7 @@ tags: [Android]
 
 包含设置、话筒、帮助，文字输入类似不再赘述，效果如下：
 
-![222](https://github.com/ztygalaxy/ztygalaxy.github.io/blob/master/assets/img/thumbnails/222.png)
+![语音输入按钮](https://raw.githubusercontent.com/ztygalaxy/ztygalaxy.github.io/master/assets/img/thumbnails/222.png)
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
