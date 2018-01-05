@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 树莓派用AirPlay播放实现WiFi连无线音响外放
+title: 左右左右左：Android对话流实现
 feature-img: "assets/img/pexels/computer.jpeg"
 thumbnail: "assets/img/thumbnails/desk-nerd.jpeg"
 tags: [Android]
