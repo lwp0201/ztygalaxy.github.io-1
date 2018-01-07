@@ -6,12 +6,6 @@ feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About]
 ---
 
-
-
-
-
-
-
 ## Hello , I'm  TianyuZhang.
 
 ##### 还是个新手，
