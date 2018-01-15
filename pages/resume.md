@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: Resume
 feature-img: "assets/img/pexels/computer.jpeg"
-thumbnail: "assets/img/thumbnails/desk-nerd.jpeg"
 tags: [Resume]
 ---
 
@@ -11,7 +10,7 @@ tags: [Resume]
 - 张天宇 / 男 / 1996
 - 本科 / 山东农业大学计算机科学与技术 2014-2018
 - 技术博客：[http://ztygalaxy.github.io](http://ztygalaxy.github.io/)
-- GitHub：[http://ztygalaxy.github.io](http://ztygalaxy.github.io/)
+- GitHub：[http://github.com/ztygalaxy](http://github.com/ztygalaxy/)
 
 ------
 
