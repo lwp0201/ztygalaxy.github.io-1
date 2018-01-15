@@ -3,7 +3,6 @@ layout: page
 title: Resume
 permalink: /resume/
 feature-img: "assets/img/pexels/computer.jpeg"
-tags: [Resume]
 hide: true
 ---
 

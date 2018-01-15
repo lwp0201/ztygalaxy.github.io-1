@@ -15,4 +15,4 @@ tags: [About]
 ------
 #### 欢迎访问我的[GitHub](https://github.com/ztygalaxy) 
 
-#### [个人简历](https://ztygalaxy.github.io/resume)
+#### [个人简历](https://ztygalaxy.github.io/resume/)
