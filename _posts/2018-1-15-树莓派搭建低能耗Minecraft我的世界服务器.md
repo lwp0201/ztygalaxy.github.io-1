@@ -62,6 +62,12 @@ sudo java -Xms256M -Xmx900M -jar /home/pi/mc/spigot.jar nogui
 
 ###  	祝大家玩的开心！
 
+
+
+
+
+
+
 PS：目录下server.properties参数说明，可按需修改
 
 ~~~properties
