@@ -2,7 +2,7 @@
 layout: post
 title: 树莓派搭建低能耗Minecraft我的世界服务器
 feature-img: "assets/img/thumbnails/desk-nerd.jpeg"
-thumbnail: "assets/img/pexels/pi.jpeg"
+thumbnail: "assets/img/pexels/minecraft.jpg"
 tags: [Raspberry]
 ---
 
