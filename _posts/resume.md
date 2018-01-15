@@ -1,3 +1,11 @@
+---
+layout: post
+title: 简历
+feature-img: "assets/img/pexels/computer.jpeg"
+thumbnail: "assets/img/thumbnails/desk-nerd.jpeg"
+tags: [Resume]
+---
+
 # 个人信息
 
 - 张天宇 / 男 / 1996
