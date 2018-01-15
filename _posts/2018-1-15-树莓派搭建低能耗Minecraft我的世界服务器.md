@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 树莓派搭建低能耗Minecraft我的世界服务器
-feature-img: "assets/img/pexels/pi.jpeg"
-thumbnail: "assets/img/thumbnails/desk-nerd.jpeg"
+feature-img: "assets/img/thumbnails/desk-nerd.jpeg"
+thumbnail: "assets/img/pexels/pi.jpeg"
 tags: [Raspberry]
 ---
 
@@ -22,9 +22,9 @@ tags: [Raspberry]
 
 ​	将系统分区拓展至整个SD卡分区，选择高级操作选项，拓展分区，重启。
 
-​	![拓展分区]()
+​	![拓展分区](https://raw.githubusercontent.com/ztygalaxy/ztygalaxy.github.io/master/assets/img/thumbnails/es0.png)
 
-![拓展分区]()
+![拓展分区](https://raw.githubusercontent.com/ztygalaxy/ztygalaxy.github.io/master/assets/img/thumbnails/es1.png)
 
 ## 2.安装Java环境
 
