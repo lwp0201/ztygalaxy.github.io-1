@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 简历
+title: Resume
 feature-img: "assets/img/pexels/computer.jpeg"
 thumbnail: "assets/img/thumbnails/desk-nerd.jpeg"
 tags: [Resume]
