@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Resume
 feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Resume]

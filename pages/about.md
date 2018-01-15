@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/circuit.jpeg"
-tags: [About, Test]
+tags: [About]
 ---
 
 ## Hello,I'm TianyuZhang.
@@ -13,4 +13,6 @@ tags: [About, Test]
 ##### - 随便写写，  
 ##### - 随便记记。
 ------
-#### 欢迎访问我的[GitHub](https://github.com/ztygalaxy) 、[个人简历](https://ztygalaxy.github.io/resume)
+#### 欢迎访问我的[GitHub](https://github.com/ztygalaxy) 
+
+#### [个人简历](https://ztygalaxy.github.io/resume)
