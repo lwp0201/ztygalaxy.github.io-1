@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 次元画社(一)——带有渐变动画的启动Activity
+title: 次元画社(一)：带有渐变动画的启动Activity
 feature-img: "assets/img/thumbnails/desk-messy.jpeg"
 thumbnail: "assets/img/pexels/cyhs_start.jpg"
 tags: [Android]
