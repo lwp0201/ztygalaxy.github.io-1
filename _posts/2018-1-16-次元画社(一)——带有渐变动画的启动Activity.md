@@ -3,7 +3,7 @@ layout: post
 title:次元画社(一)——带有渐变动画的启动Activity
 feature-img: "assets/img/pexels/book-glass.jpeg"
 thumbnail: "assets/img/pexels/cyhs_start.jpg"
-tags: [Android，次元画社]
+tags: [Android, 次元画社]
 ---
 
 ## 一、概述
