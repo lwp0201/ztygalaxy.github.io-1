@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 次元画社(一)：带有渐变动画的启动Activity
+title: 次元画社(一)，带有渐变动画的启动Activity
 feature-img: "assets/img/pexels/desk-top.jpeg"
 thumbnail: "assets/img/pexels/cyhs_start.jpg"
 tags: [Android, 次元画社]
@@ -9,6 +9,8 @@ tags: [Android, 次元画社]
 ## 一、概述
 
 ​	次元画社：基于Android的二次元图片分享社区，用户通过实时绘画或本地上传与其他用户共同分享图片，其中图片以瀑布流显示并配以高斯模糊背景等美化效果，独立开发，持续完善中。
+
+​	目的：练手，对一些基础部件进行一些应用，拆分讲解。
 
 ​	开发工具：Android Studio
 
