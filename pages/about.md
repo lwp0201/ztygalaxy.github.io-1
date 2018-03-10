@@ -14,3 +14,12 @@ tags: [About]
 ##### - 随便记记。
 ------
 #### 欢迎访问我的[GitHub](https://github.com/ztygalaxy) 
+
+###### 扫描二维码，关注张大炮来巡山
+
+![张大炮来巡山](https://raw.githubusercontent.com/ztygalaxy/ztygalaxy.github.io/master/assets/img/thumbnails/qcode.jpg)
+
+​	
+
+
+
