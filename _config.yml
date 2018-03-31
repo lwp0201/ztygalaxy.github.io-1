@@ -49,7 +49,7 @@ theme_settings:
   katex: true
   # resume: false
   portfolio: false
-  search: true
+  search: false
   tags: true
   
   
