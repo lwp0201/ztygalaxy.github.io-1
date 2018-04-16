@@ -8413,7 +8413,7 @@ div.cs-select span {
 #fh5co-services-section,
 #fh5co-contact-section,
 #footer {
-  padding: 7em 0;
+  padding: 2em 0;
 }
 
 #hotel-facilities {
@@ -8870,14 +8870,14 @@ input[type="text"] {
 }
 
 .section-title {
-  margin-bottom: 5em;
+  margin-bottom: 1em;
   float: left;
   width: 100%;
   z-index: 99;
 }
 @media screen and (max-width: 768px) {
   .section-title {
-    padding-top: 4em;
+    padding-top: 1em;
   }
 }
 .section-title h2 {

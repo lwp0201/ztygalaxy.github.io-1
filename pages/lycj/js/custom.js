@@ -157,10 +157,10 @@ $(function(){
    // Tabs
 
    var tabs = function() {
-      $('#hotel-facilities').css('height', $('.tab-content.active').height() + 600);
+      $('#hotel-facilities').css('height', $('.tab-content.active').height() + 350);
 
       $(window).resize(function(){
-         $('#hotel-facilities').css('height', $('.tab-content.active').height() + 600);
+         $('#hotel-facilities').css('height', $('.tab-content.active').height() + 350);
       });
 
       $('.tabs-nav > a').on('click', function(e){
@@ -174,7 +174,7 @@ $(function(){
          
          setTimeout(function(){
             $('.tab-content[data-tab-content="'+tab+'"]').addClass('active');
-            $('#hotel-facilities').css('height', $('.tab-content.active').height() + 600);
+            $('#hotel-facilities').css('height', $('.tab-content.active').height() + 350);
          }, 200);
          setTimeout(function(){
             $('.tab-content[data-tab-content="'+tab+'"]').addClass('show');
