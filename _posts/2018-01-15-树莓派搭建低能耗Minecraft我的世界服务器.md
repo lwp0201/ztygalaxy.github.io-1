@@ -19,9 +19,9 @@ tags:
 
 ​	将系统分区拓展至整个SD卡分区，选择高级操作选项，拓展分区，重启。
 
-​	![拓展分区](https://raw.githubusercontent.com/ztygalaxy/ztygalaxy.github.io/master/assets/img/thumbnails/es0.png)
+​	![拓展分区](https://raw.githubusercontent.com/ztygalaxy/ztygalaxy.github.io/master/images/es0.png)
 
-![拓展分区](https://raw.githubusercontent.com/ztygalaxy/ztygalaxy.github.io/master/assets/img/thumbnails/es1.png)
+![拓展分区](https://raw.githubusercontent.com/ztygalaxy/ztygalaxy.github.io/master/assets/images/es1.png)
 
 ## 2.安装Java环境
 
