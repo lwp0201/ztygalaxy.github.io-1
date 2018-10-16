@@ -5,15 +5,11 @@ tags:
   - Notes
 ---
 
-> 作者：chenjiandongx
->
-> 简介：一个热爱思考的大学生 。
->
-> Github地址：https://github.com/chenjiandongx
-
-如何做Python 的数据可视化？
-
 > pyecharts 是一个用于生成 Echarts 图表的类库。 Echarts 是百度开源的一个数据可视化 JS 库。主要用于数据可视化。
+
+作者：chenjiandongx
+
+Github地址：https://github.com/chenjiandongx
 
 一、安装
 
