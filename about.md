@@ -16,17 +16,13 @@ Do something really cool and make the world a better place.
 
 ### Contact me
 
-[zhangty1996@163.com](mailto:zhangty1996@163.com)
+[ztygalaxy@hdu.edu.cn](mailto:ztygalaxy@hdu.edu.cn)
 
 ---
 
 ### Collection
 
-#### Project
-
 [Bing Pictures Interface](https://github.com/xCss/bing)
-
-#### Guide
 
 [free-programming-books](https://github.com/stormzhang/free-programming-books)
 
@@ -37,6 +33,8 @@ Do something really cool and make the world a better place.
 [Android编程指南 by stormzhang](https://github.com/stormzhang/android-interview-questions-cn)
 
 [The Mistakes I Made As a Beginner Programmer-掘金计划译](https://github.com/xitu/gold-miner/blob/master/TODO1/the-mistakes-i-made-as-a-beginner-programmer.md)
+
+[Java学习+面试指南](https://github.com/Snailclimb/JavaGuide)
 
 
 
