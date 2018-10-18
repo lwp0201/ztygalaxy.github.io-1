@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 基于Python的数据可视化工具Pyecharts
+title: [转]基于Python的数据可视化工具Pyecharts
 tags:
   - Notes
 ---
