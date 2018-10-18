@@ -4,8 +4,6 @@ title: Collection
 permalink: /collection/
 ---
 
-### Collection
-
 [Bing Pictures Interface](https://github.com/xCss/bing)
 
 [free-programming-books](https://github.com/stormzhang/free-programming-books)
