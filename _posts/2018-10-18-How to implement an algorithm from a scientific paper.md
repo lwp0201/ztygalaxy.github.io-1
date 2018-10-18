@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [转]How to implement an algorithm from a scientific paper
+title: How to implement an algorithm from a scientific paper
 tags:
   - Notes
 ---
