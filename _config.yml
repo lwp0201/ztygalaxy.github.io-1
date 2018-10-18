@@ -26,6 +26,8 @@ navigation:
     url: /
   - name: Tags
     url: /tags
+  - name: Collection
+    url: /collection
   - name: About
     url: /about
 #  - name: Archive
