@@ -5,7 +5,9 @@ tags:
   - Notes
 ---
 
-This article is a short guide to implementing an algorithm from a scientific paper. I have implemented many complex algorithms from books and scientific publications, and this article sums up what I have learned while searching, reading, coding and debugging. This is obviously limited to publications in domains related to the field of Computer Science. Nevertheless, you should be able to apply the guidelines and good practices presented below to any kind of paper or implementation.
+> This article is a short guide to implementing an algorithm from a scientific paper.
+
+I have implemented many complex algorithms from books and scientific publications, and this article sums up what I have learned while searching, reading, coding and debugging. This is obviously limited to publications in domains related to the field of Computer Science. Nevertheless, you should be able to apply the guidelines and good practices presented below to any kind of paper or implementation.
 
 To receive a notification email every time a new article is posted on Code Capsule, you can subscribe to the newsletter by filling up the form at the top right corner of the blog.
 As usual, comments are open at the bottom of this post, and I am always happy to welcome questions, corrections and contributions!
