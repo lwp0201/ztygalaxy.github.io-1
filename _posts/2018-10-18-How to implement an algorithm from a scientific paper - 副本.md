@@ -208,4 +208,4 @@ Now go implement some cool algorithm!
 
 
 
-by Emmanuel Goossaert from http://codecapsule.com/2012/01/18/how-to-implement-a-paper/
+**by Emmanuel Goossaert from http://codecapsule.com/2012/01/18/how-to-implement-a-paper/**
