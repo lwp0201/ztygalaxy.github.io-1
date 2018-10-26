@@ -18,3 +18,4 @@ permalink: /collection/
 
 [Java学习+面试指南](https://github.com/Snailclimb/JavaGuide)
 
+[GitHub 项目徽章的添加和设置](http://www.cocoachina.com/programmer/20170512/19256.html)
