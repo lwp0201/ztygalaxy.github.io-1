@@ -1,6 +1,6 @@
 ---
 layout: page
-title: academic
+title: 
 permalink: /academic/
 ---
 
