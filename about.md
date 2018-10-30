@@ -14,6 +14,26 @@ Do something really cool and make the world a better place.
 
 ---
 
+### Recommend
+
+[Bing Pictures Interface](https://github.com/xCss/bing)
+
+[free-programming-books](https://github.com/stormzhang/free-programming-books)
+
+[Python 入门教程](https://github.com/TwoWater/Python)
+
+[掘金翻译计划](https://github.com/xitu/gold-miner)
+
+[Android编程指南 by stormzhang](https://github.com/stormzhang/android-interview-questions-cn)
+
+[The Mistakes I Made As a Beginner Programmer-掘金计划译](https://github.com/xitu/gold-miner/blob/master/TODO1/the-mistakes-i-made-as-a-beginner-programmer.md)
+
+[Java学习+面试指南](https://github.com/Snailclimb/JavaGuide)
+
+[GitHub 项目徽章的添加和设置](http://www.cocoachina.com/programmer/20170512/19256.html)
+
+---
+
 ### Contact me
 
 [ztygalaxy@hdu.edu.cn](mailto:ztygalaxy@hdu.edu.cn)
