@@ -26,8 +26,8 @@ navigation:
     url: /
   - name: Tags
     url: /tags
-  - name: Academic
-    url: /academic
+#  - name: Academic
+#    url: /academic
   - name: About
     url: /about
 #  - name: Archive
