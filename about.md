@@ -32,6 +32,8 @@ Do something really cool and make the world a better place.
 
 [GitHub 项目徽章的添加和设置](http://www.cocoachina.com/programmer/20170512/19256.html)
 
+[How Vehicle-to-Vehicle Communication Could Replace Traffic Lights and Shorten Commutes](https://spectrum.ieee.org/transportation/infrastructure/how-vehicletovehicle-communication-could-replace-traffic-lights-and-shorten-commutes)
+
 ---
 
 ### Contact me
