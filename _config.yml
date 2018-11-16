@@ -28,11 +28,11 @@ email: tyzhang@hdu.edu.cn
 navs:
   -
     href: /
-    label: 首页
+    label: Home
 
   -
     href: /categories/
-    label: 分类
+    label: Tag
 
 #   -
 #     href: /archives/
@@ -45,12 +45,12 @@ navs:
 #  -
 #    href: /links/
 #    label: 链接
-  -
-    href: http://www.baidu.com
-    label: 旧版
+#  -
+#    href: http://www.baidu.com
+#    label: 旧版
   -
     href: /about/
-    label: 关于
+    label: About
 
 # ---------------- #
 #       RSS        #
