@@ -1,8 +1,9 @@
 ---
 layout: post
 title: How to implement an algorithm from a scientific paper
-tags:
-  - Notes
+categories: Notes
+description: This article is a short guide to implementing an algorithm from a scientific paper.
+keywords: 
 ---
 
 > This article is a short guide to implementing an algorithm from a scientific paper.
