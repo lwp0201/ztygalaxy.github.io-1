@@ -1,7 +1,7 @@
 <h3>My Repositories</h3>
 {% if site.github.public_repositories != null %}
 {% assign repos = site.github.public_repositories | sort: "name"%}
-{% for repo in repos | limit: 3 %}
+{% for repo in repos | limit: 4 %}
 <a href="{{ repo.html_url }}" target="_blank" class="card text-center">
     <div class="thumbnail">
         <div class="card-image geopattern" data-pattern-id="{{ repo.name }}">
