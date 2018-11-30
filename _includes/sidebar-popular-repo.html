@@ -1,7 +1,7 @@
 <h3>My Repositories</h3>
 {% if site.github.public_repositories != null %}
-{% assign repos = site.github.public_repositories | sort: "stargazers_count" | reverse%}
-{% for repo in repos | limit: site.side_bar_repo_limit %}
+{% assign repos = site.github.public_repositories | sort: "name"%}
+{% for repo in repos | limit: 3 %}
 <a href="{{ repo.html_url }}" target="_blank" class="card text-center">
     <div class="thumbnail">
         <div class="card-image geopattern" data-pattern-id="{{ repo.name }}">
@@ -15,7 +15,9 @@
             <div class="card-description">
                 <p class="card-text">{{ repo.description }}</p>
             </div>
+			<!--
             <div class="card-text">
+			
                 <span class="meta-info" title="{{ repo.stargazers_count }} stars">
                     <span class="octicon octicon-star"></span> {{ repo.stargazers_count }}
                 </span>
@@ -27,6 +29,7 @@
                     <time datetime="{{ repo.updated_at }}">{{ repo.updated_at | date: '%Y-%m-%d' }}</time>
                 </span>
             </div>
+			-->
         </div>
     </div>
 </a>
