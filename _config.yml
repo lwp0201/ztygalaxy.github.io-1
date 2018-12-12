@@ -34,9 +34,9 @@ navs:
     href: /categories/
     label: Tag
 
-#   -
-#     href: /archives/
-#     label: 归档
+  -
+     href: /files/
+     label: Files
 
 #  -
 #    href: /wiki/
