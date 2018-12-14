@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于圆滑物体计数的一点思考
-categories: Blog
+categories: Notes
 description: 程序员的使命就是让程序员失业
 keywords: 
 ---
