@@ -10,7 +10,7 @@ description: "张天宇的个人博客"
 keywords: ztygalaxy, Tianyu Zhang
 timezone: Asia/Shanghai
 encoding: "utf-8"
-side_bar_repo_limit: 3
+side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
@@ -34,9 +34,9 @@ navs:
     href: /categories/
     label: Tag
 
-  -
-     href: /files/
-     label: Files
+#  -
+#     href: /files/
+#     label: Files
 
 #  -
 #    href: /wiki/
