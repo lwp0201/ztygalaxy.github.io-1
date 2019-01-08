@@ -1,58 +1,104 @@
----
-layout: post
-title: 'How to implement an algorithm from a scientific paper'
-date: 2018-10-18
-author: Emmanuel Goossaert
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
-tags: Notes
----
-
 > This article is a short guide to implementing an algorithm from a scientific paper.
+>
+> 这篇文章简要的介绍了如何编程实现科学论文中的算法。
+>
+> 作者：Emmanuel Goossaert
+>
+> 原文地址： http://codecapsule.com/2012/01/18/how-to-implement-a-paper/
+>
+> 翻译：张天宇
 
 I have implemented many complex algorithms from books and scientific publications, and this article sums up what I have learned while searching, reading, coding and debugging. This is obviously limited to publications in domains related to the field of Computer Science. Nevertheless, you should be able to apply the guidelines and good practices presented below to any kind of paper or implementation.
 
+我已经从书记和出版物中实现了很多复杂的算法，本文总结了我在检索，阅读，编码和调试中学到的知识。这显然仅限于与计算机相关的领域的出版物。但是你应该可以将下面要讲的指南和较好的实践应用于任何类型的论文或实现。
+
 To receive a notification email every time a new article is posted on Code Capsule, you can subscribe to the newsletter by filling up the form at the top right corner of the blog.
+
+广告不译。
+
 As usual, comments are open at the bottom of this post, and I am always happy to welcome questions, corrections and contributions!
+
+像往常一样，这篇文章底下的评论是开放的，我一直很乐意大家提出问题、修正或者贡献。
 
 ## 1 – Before you jump in
 
+## 1 - 入坑之前
+
 There are a few points you should review before you jump into reading a technical paper and implementing it. Make sure you cover them carefully each time you are about to start working on such a project.
+
+在您阅读论文并打算编码实现之前，有几点你需要了解。每次你打算开始这样一个项目时都要确保已经做到了以下几点。
 
 ### 1.1 – Find an open source implementation to avoid coding it
 
+### 1.1 - 避免重复造轮子
+
 Unless you want to implement the paper for the purpose of learning more about the field, you have no need to implement it. Indeed, what you want is not coding the paper, but just the code that implements the paper. So before you start anything, you should spend a couple of days trying to find an open source implementation on the internet. Just think about it: would you rather lose two days looking for the code, or waste two months implementing an algorithm that was already available?
+
+如果不是出于想要深入了解这个领域，你没必要亲自去实现它。实际上，你的目的不是撰写论文，只是实现代码。所以在你开始之前，应该花几天时间在互联网上尝试找到一个开源的别人已经是实现的代码。这么说吧，你是想花两天寻找代码还是浪费两个月的时间来造轮子。
 
 ### 1.2 – Find simpler ways to achieve your goal
 
+### 1.2 - 少走弯路
+
 Ask yourself what you are trying to do, and if simpler solutions would work for what you need. Could you use another technique – even if the result is only 80% of what you want – that does not require to implement the paper, and that you could get running within the next two days or so with available open source libraries? For more regarding this, see my article [The 20 / 80 Productivity Rule](http://codecapsule.com/2011/03/06/20-80-productivity-rule/).
+
+问一下自己你想要做什么，是不是有更简单的方法来解决你的需求。你是否愿意使用其他只能达到80%的效果的技术？这样的话你在接下来的几天就可以直接使用开源库在实现自己的问题。有关这方面的更多信息，请参阅我的文章 [The 20 / 80 Productivity Rule](http://codecapsule.com/2011/03/06/20-80-productivity-rule/)。
 
 ### 1.3 – Beware of software patents
 
+### 1.3 - 小心软件专利
+
 If you are in the U.S., beware of software patents. Some papers are patented and you could get into trouble for using them in commercial applications.
+
+如果你在美国，小心软件专利问题。有些论文申请了专利，如果你拿它来商用可能会惹上麻烦。
 
 ### 1.4 – Learn more about the field of the paper
 
+### 1.4 - 工欲善其事必先利其器
+
 If you are reading a paper about the use of Support Vector Machines (SVM) in the context of Computational Neuroscience, then you should read a short introduction to Machine Learning and the different types of classifiers that could be alternatives to SVM, and you should as well read general articles about Computational Neuroscience to know what is being done in research right now.
+
+如果你正在阅读一篇关于在计算机神经学中使用支持向量机SVM的论文，那在此之前你应该阅读一些对机器学习和可替代SVM的不同类型的分类器的简短介绍。同样，你也应该阅读一些关于些计算机神经学的文章了解一下该领域目前正在研究什么。
 
 ### 1.5 – Stay motivated
 
+### 1.5 - 世上无难事，只要肯攀登
+
 If you have never implemented a paper and/or if you are new to the domain of the paper, then the reading can be very difficult. Whatever happens, do not let the amount and the complexity of the mathematical equations discourage you. Moreover, speed is not an issue: even if you feel that you understand the paper slower than you wish you would, just keep on working, and you will see that you will slowly and steadily understand the concepts presented in the paper, and pass all difficulties one after the other.
+
+如果你此前从未实现过论文中的代码或者你在这个领域中是个小白，毫无疑问，阅读肯定是非常困难的。但无论如何，都不要让数学方程的数量和复杂阻挡了你进步的脚步。此外，速度不是问题，即使你感觉你看论文的速度要比预想的要慢，只要坚持下去，你就会慢慢的理解这篇论文中提到的概念，困难也就迎刃而解。
 
 ## 2 – Three kinds of papers
 
+## 2 - 三种论文
+
 It is never a good idea to pick a random paper and start implementing in right away. There are a lot of papers out there, which means there is a lot of garbage. All publications can fit into three categories:
+
+不要随便选一个论文就开始编程。论文数量多意味着垃圾也多。所有出版物可以分为三类：
 
 ### 2.1 – The groundbreaking paper
 
+### 2.1 - 开创性论文
+
 Some really interesting, well-written, and original research. Most of these papers are coming out of top-tier universities, or out of research teams in smaller universities that have been tackling the problem for about six to ten years. The later is easy to spot: they reference their own publications in the papers, showing that they have been on the problem for some time now, and that they base their new work on a proven record of publications. Also, the groundbreaking papers are generally published in the best journals in the field.
+
+一些很有趣、写的很好、原创性的研究。这种论文大多数来自顶尖大学或者较小型大学的研究团队，这个问题他们可能已经研究了六到十年的问题。很容易发现，他们在论文中引用他们自己的出版物，表明他们已经解决了这个问题，并且他们将新工作发表在了可靠的出版物上。当然，这些开创性的论文通常发表在该领域的最佳期刊上。
 
 ### 2.2 – The copycat paper
 
+### 2.2 模仿性论文
+
 Some research group that is just following the work of the groundbreaking teams, proposing improvements to it, and publishing their results of the improvements. Many of these papers lack proper statistical analysis and wrongly conclude that the improvements are really beating the original algorithm. Most of the time, they really are not bringing anything except for unnecessary additional complexity. But not all copycats are bad. Some are good, but it’s rare.
+
+有些研究小组只是跟随开创性团队的工作，提出改进建议，并公布他们的改进结果。其中很多论文缺乏适当的统计分析，错误的认为这些改进确实超过了原始算法。大多数时候，除了额外复杂性外，它们确实没带来任何东西。但并非所有模仿者都不好，有，但很少见。
 
 ### 2.3 – The garbage paper
 
+### 2.3 - 垃圾论文
+
 Some researchers really don’t know what they are doing and/or are evil. They just try to maintain their status and privileges in the academic institution at which they teach. So they need funding, and for that they need to publish, something, anything. The honest ones will tell you in the conclusion that they failed and that the results are accurate only N% of the time (with N being a bad value). But some evil ones will lie, and say that their research was a great success. After some time reading publications, it becomes easy to spot the garbage paper and ditch them.
+
+有些研究小组
 
 ## 3 – How to read a scientific paper
 
