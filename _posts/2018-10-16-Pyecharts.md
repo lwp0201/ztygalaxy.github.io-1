@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 基于Python的数据可视化工具Pyecharts
-categories: Notes
-description: Pyecharts 是一个用于生成 Echarts 图表的类库。 Echarts 是百度开源的一个数据可视化 JS 库。主要用于数据可视化。
-keywords: 
+title: '基于Python的数据可视化工具Pyecharts'
+date: 2018-10-16
+author: chenjiandongx
+cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
+tags: Notes
 ---
 
 > pyecharts 是一个用于生成 Echarts 图表的类库。 Echarts 是百度开源的一个数据可视化 JS 库。主要用于数据可视化。

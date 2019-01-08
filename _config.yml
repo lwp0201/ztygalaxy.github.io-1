@@ -1,127 +1,80 @@
-# ---------------- #
-#   Main Configs   #
-# ---------------- #
-baseurl:
-url: https://ztygalaxy.github.io
-date_format: "ordinal"
-title: 张天宇's Blog
-subtitle: "Do something really cool and make the world a better place."
-description: "张天宇的个人博客"
-keywords: ztygalaxy, Tianyu Zhang
-timezone: Asia/Shanghai
-encoding: "utf-8"
-side_bar_repo_limit: 5
+# Site settings 配置站点
+title: '张天宇的博客'
+description: '分享我对技术和生活的思考'
+keyword: '张天宇, 张天宇的博客'
+url: 'http://tyzhang.tk' # your host
 
-# ---------------- #
-#      Author      #
-# ---------------- #
-author: Tianyu Zhang
-organization: Hangzhou Dianzi University
-organization_url: http://www.hdu.edu.cn/
-github_username: ztygalaxy
-location: Hangzhou, China
-email: tyzhang@hdu.edu.cn
+# if you don't need baseurl, you should leave this value blank.
+baseurl: ''
 
-# ---------------- #
-#    Navigation    #
-# ---------------- #
-navs:
-  -
-    href: /
-    label: Home
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
+#  about: '/about.html'
 
-  -
-    href: /categories/
-    label: Tag
+# Footer
+footer:
+  since: 2016
 
-#  -
-#     href: /files/
-#     label: Files
+# Author 配置博主信息
+author: '张天宇'
+nickname: 'ztygalaxy'
+bio: 'Do something really cool and make the world a better place.'
+avatar: '/assets/img/profile.png'
 
-#  -
-#    href: /wiki/
-#    label: 维基
+# Search
+search: true
 
-#  -
-#    href: /links/
-#    label: 链接
-#  -
-#    href: http://www.baidu.com
-#    label: 旧版
-  -
-    href: /about/
-    label: About
+# Night mode
+nightMode: true
 
-# ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
+# Comments 评论功能
+comments:
+  disqus: false
+  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
-# ---------------- #
-#      Jekyll      #
-# ---------------- #
+# MathJax 公式支持 by Ray-Eldath
+mathjax: true
+
+# Share
+social-share: true
+social-share-items: ['wechat', 'weibo']
+
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'food'
+
+# SNS settings 配置社交网站
+# url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  email: 'tyzhang@hdu.edu.cn'
+  zhihu: '//zhihu.com/people/zhang-tian-yu-65-49/activities'
+  github: '//github.com/ztygalaxy'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+
+# Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
 markdown: kramdown
-kramdown:
-    input: GFM
 highlighter: rouge
-paginate: 8
-lsi: false
-quiet: false
-excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
-gems:
-    - jekyll-github-metadata
-    - rouge
-#     - jekyll-html-pipeline
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-feed
-    - jemoji
-#     - jekyll-mentions
-collections:
-    wiki:
-        output: true
-        permalink: /wiki/:path/
+kramdown:
+  input: GFM
 
-repository: ztygalaxy/ztygalaxy.github.io
+# RSS
+RSS: true
 
-# ---------------- #
-#      Comments    #
-# ---------------- #
-# support provider: disqus, gitment, gitalk
-#comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-#disqus:
-#    username: 
-# https://imsun.net/posts/gitment-introduction/
-#gitment:
-#    owner: mzlogin
-#    repo: blog-comments
-#    oauth:
-#        client_id: d2e1cbbd298958076462
-#        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# https://github.com/gitalk/gitalk#install
-#gitalk:
-#    owner: mzlogin
-#   repo: blog-comments
-#    clientID: d2e1cbbd298958076462
-#    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# 在使用其它评论组件时可点击显示 Disqus
-#lazy_load_disqus : false
+# Permalink
+# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
+permalink: /:year/:month/:day/:title.html
 
-# ---------------- #
-#      Search      #
-# ---------------- #
-simple_jekyll_search:
-    # 是否支持全文搜索
-    fulltext: false
-    # 最多显示多少条搜索结果
-    limit: 10
-
-# ---------------- #
-#    Analytics     #
-# ---------------- #
-google:
-    analytics_id: UA-80669434-1
+# Plugins
+plugins: [jekyll-paginate]

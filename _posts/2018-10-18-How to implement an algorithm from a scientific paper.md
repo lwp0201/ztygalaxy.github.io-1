@@ -1,9 +1,10 @@
 ---
 layout: post
-title: How to implement an algorithm from a scientific paper
-categories: Notes
-description: This article is a short guide to implementing an algorithm from a scientific paper.
-keywords: 
+title: 'How to implement an algorithm from a scientific paper'
+date: 2018-10-18
+author: Emmanuel Goossaert
+cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
+tags: Notes
 ---
 
 > This article is a short guide to implementing an algorithm from a scientific paper.

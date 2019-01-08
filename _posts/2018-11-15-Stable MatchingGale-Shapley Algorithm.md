@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Stable Matching:Gale-Shapley Algorithm
-categories: Notes
-description: 1962年，美国数学家David Gale和Lloyd Shapley发明了一种寻找稳定婚姻的策略，人们称之为延迟认可算法（Gale-Shapley算法）
-keywords: 
+title: 'Stable Matching:Gale-Shapley Algorithm'
+date: 2018-11-15
+author: 张天宇
+cover: ''
+tags: Notes
 ---
 
 #### Problem

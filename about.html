@@ -1,0 +1,28 @@
+---
+title: About me
+layout: default
+header-img: assets/img/bp.jpg
+---
+
+{% include header.html %}
+<style type="text/css">
+   .block{margin-top:30px;width:695px}
+</style>
+<div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}"
+style="{% if page.header-img %}background: url({{ page.header-img | prepend: site.baseurl }}) no-repeat center center; background-size: cover;{% endif %}">
+    <h2>About me</h2>
+</div>
+<center>
+	<div align="left" class="block">
+		<h2>
+		我是张天宇<br><br>
+		收录了一些自己用到的或者总结的问题、文章。<br>
+		有些随笔，随便写写。<br><br>
+		Do something really cool and make the world a better place.<br>
+		<br><br><br>
+		</h2>
+	</div>
+	{% include sidebar-popular-repo.html %}
+</center>
+    
+{% include footer.html %}

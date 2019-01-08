@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Python数据处理初
-categories: Notes
-description: 最近实验室数据处理，一个Didi的数据文件要四千万条数据左右，了解了一下python。本着拿来主义的学习原则，用到什么学什么，记录之。
-keywords: 
+title: 'Python数据处理初'
+date: 2018-07-18
+author: 张天宇
+cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
+tags: Notes
 ---
 >  最近实验室数据处理，一个Didi的数据文件要四千万条数据左右，了解了一下python。本着拿来主义的学习原则，用到什么学什么，记录之。
 

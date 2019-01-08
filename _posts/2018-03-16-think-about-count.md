@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 关于圆滑物体计数的一点思考
-categories: Notes
-description: 程序员的使命就是让程序员失业
-keywords: 
+title: '关于圆滑物体计数的一点思考'
+date: 2018-03-16
+author: 张天宇
+cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
+tags: Notes
 ---
 
 ​	在做SRT的时候，涉及到了对种子粘连的一个计数，前期做了一些边缘检测算法，效果不是很好，由于时间原因没有深入理解。偶然的机会，有了一点其他想法。
