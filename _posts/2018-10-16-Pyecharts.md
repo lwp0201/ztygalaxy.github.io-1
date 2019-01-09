@@ -3,7 +3,6 @@ layout: post
 title: '基于Python的数据可视化工具Pyecharts'
 date: 2018-10-16
 author: chenjiandongx
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
 tags: Notes
 ---
 

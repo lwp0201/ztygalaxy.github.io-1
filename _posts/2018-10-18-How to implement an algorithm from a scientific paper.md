@@ -1,11 +1,8 @@
----
 layout: post
 title: '[译]How to implementing an algorithm from a scientific paper'
 date: 2018-10-18
 author: Emmanuel Goossaert
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
 tags: Notes
----
 
 > This article is a short guide to implementing an algorithm from a scientific paper.
 >
@@ -107,13 +104,19 @@ Some research group that is just following the work of the groundbreaking teams,
 
 Some researchers really don’t know what they are doing and/or are evil. They just try to maintain their status and privileges in the academic institution at which they teach. So they need funding, and for that they need to publish, something, anything. The honest ones will tell you in the conclusion that they failed and that the results are accurate only N% of the time (with N being a bad value). But some evil ones will lie, and say that their research was a great success. After some time reading publications, it becomes easy to spot the garbage paper and ditch them.
 
-有些研究小组
+一些研究人员真的不知道他们在做什么或者说是坏透了。 他们只是试图在他们教授的学术机构中保持自己的地位和特权。 所以他们需要资金，为此他们需要发布，不管有没有。 诚实的人会在结论中告诉你他们失败了，结果只有N％的时间是准确的（N是一个坏的值）。 但是一些坏透了的人会说谎，并说他们的研究取得了巨大的成功。 经过一段时间阅读出版物后，你会很容易发现这些辣鸡并丢弃它们。
 
 ## 3 – How to read a scientific paper
 
+### 3 - 如何阅读一篇论文
+
 A lot has already been written on the topic, so I am not going to write much about it. A good starting point is: *How to Read a Paper* by Srinivasan Keshav. Below are a few points that I found useful while I was reading scientific publications.
 
+关于这个主题已经写了很多，所以我不打算写太多。 一个很好的起点是：Srinivasan Keshav撰写的论文How to Read a Paper。以下是我在阅读出版物时发现的一些有用的观点。
+
 ### 3.1 – Find the right paper
+
+### 3.1 - 找正确的论文
 
 What you want to implement is an original paper, one that started a whole domain. It is sometimes okay to pick a copycat paper, if you feel that it brings real improvements and consistency to a good but immature groundbreaking paper.
 

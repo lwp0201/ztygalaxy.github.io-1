@@ -3,7 +3,6 @@ layout: post
 title: 'Stable Matching:Gale-Shapley Algorithm'
 date: 2018-11-15
 author: 张天宇
-cover: ''
 tags: Notes
 ---
 

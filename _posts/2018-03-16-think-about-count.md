@@ -3,7 +3,6 @@ layout: post
 title: '关于圆滑物体计数的一点思考'
 date: 2018-03-16
 author: 张天宇
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
 tags: Notes
 ---
 

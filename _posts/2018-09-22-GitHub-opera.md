@@ -3,7 +3,6 @@ layout: post
 title: 'Github基本操作入门'
 date: 2018-09-22
 author: 张天宇
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
 tags: Notes
 ---
 
