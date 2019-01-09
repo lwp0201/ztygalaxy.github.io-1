@@ -1,1 +1,1 @@
-# zty-hdu.github.io
+![QRCODE](assets/img/qrcode_zdplxs_word.png)
