@@ -3,7 +3,7 @@ layout: post
 title: 'Python经纬度计算'
 date: 2018-11-01
 author: 张天宇
-tags: Notes
+tags: 笔记
 ---
 ​	处理地图数据时，经常会遇到计算两个地理位置之间的距离或者范围标定。
 

@@ -2,7 +2,7 @@ layout: post
 title: '[译]How to implementing an algorithm from a scientific paper'
 date: 2018-10-18
 author: Emmanuel Goossaert
-tags: Notes
+tags: 荐读
 
 > This article is a short guide to implementing an algorithm from a scientific paper.
 >

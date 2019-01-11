@@ -3,7 +3,7 @@ layout: post
 title: '树莓派搭建低功耗Minecraft服务器'
 date: 2018-01-15
 author: 张天宇
-tags: Notes
+tags: 教程
 ---
 
 > 搭建你自己的Minecraft服务器，以及在树莓派上搭建Minecraft服务器。

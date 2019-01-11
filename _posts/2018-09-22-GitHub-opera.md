@@ -3,7 +3,7 @@ layout: post
 title: 'Github基本操作入门'
 date: 2018-09-22
 author: 张天宇
-tags: Notes
+tags: 笔记
 ---
 
 >  一些常用基本操作
