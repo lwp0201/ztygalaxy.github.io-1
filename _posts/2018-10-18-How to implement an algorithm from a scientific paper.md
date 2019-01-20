@@ -1,10 +1,11 @@
+---
 layout: post
 title: '[译]How to implementing an algorithm from a scientific paper'
 date: 2018-10-18
 author: Emmanuel Goossaert
 tags: 荐读
+---
 
-> This article is a short guide to implementing an algorithm from a scientific paper.
 >
 > 这篇文章简要的介绍了如何编程实现科学论文中的算法。
 >
@@ -16,7 +17,7 @@ tags: 荐读
 
 I have implemented many complex algorithms from books and scientific publications, and this article sums up what I have learned while searching, reading, coding and debugging. This is obviously limited to publications in domains related to the field of Computer Science. Nevertheless, you should be able to apply the guidelines and good practices presented below to any kind of paper or implementation.
 
-我已经从书记和出版物中实现了很多复杂的算法，本文总结了我在检索，阅读，编码和调试中学到的知识。这显然仅限于与计算机相关的领域的出版物。但是你应该可以将下面要讲的指南和较好的实践应用于任何类型的论文或实现。
+我已经从书籍和出版物中实现了很多复杂的算法，本文总结了我在检索，阅读，编码和调试中学到的知识。这显然仅限于与计算机相关的领域的出版物。但是你应该可以将下面要讲的指南和较好的实践应用于任何类型的论文或实现。
 
 To receive a notification email every time a new article is posted on Code Capsule, you can subscribe to the newsletter by filling up the form at the top right corner of the blog.
 
@@ -108,11 +109,11 @@ Some researchers really don’t know what they are doing and/or are evil. They j
 
 ## 3 – How to read a scientific paper
 
-### 3 - 如何阅读一篇论文
+## 3 - 如何阅读一篇论文
 
 A lot has already been written on the topic, so I am not going to write much about it. A good starting point is: *How to Read a Paper* by Srinivasan Keshav. Below are a few points that I found useful while I was reading scientific publications.
 
-关于这个主题已经写了很多，所以我不打算写太多。 一个很好的起点是：Srinivasan Keshav撰写的论文How to Read a Paper。以下是我在阅读出版物时发现的一些有用的观点。
+关于这个主题已经写了很多，所以我不打算写太多。 一个很好的开始是：Srinivasan Keshav撰写的论文How to Read a Paper。以下是我在阅读出版物时发现的一些有用的观点。
 
 ### 3.1 – Find the right paper
 
@@ -120,49 +121,95 @@ A lot has already been written on the topic, so I am not going to write much abo
 
 What you want to implement is an original paper, one that started a whole domain. It is sometimes okay to pick a copycat paper, if you feel that it brings real improvements and consistency to a good but immature groundbreaking paper.
 
+你要实现的应该是一篇开创整个领域的原创性论文，如果你觉得它真的给一篇优秀但是不够成熟的论文带来了一些改进和一致，有时候选择一份模仿的论文也是可以的。
+
 So let’s say you have a paper as your starting point. You need to do some research in its surroundings. For that, the strategy is to look for related publications, and for the publications being listed in the “References” section at the end of the paper. Go on [Google Scholar](http://scholar.google.com/) and search for the titles and the authors. Does any of the papers you found do a better job than the paper you had originally? If yes, then just ditch the paper you were looking at in the first place, and keep the new one you found. Another cool feature of Google Scholar is that you can find papers that cite a given paper. This is really great, because all you have to do is to follow the chain of citations from one paper to the next, and you will find the most recent papers in the field. Finding the good paper from a starting point is all about looking for papers *being cited* by the current paper, and for papers *citing* the current paper. By moving back and forth in time you should find the paper that is both of high quality and fits your needs.
+
+所以，假设你有一篇论文作为起点。你需要在周围做一些研究。为此，策略是寻找相关出版物，以及本文末尾“参考文献”部分列出的出版物。继续使用Google学术搜索并搜索标题和作者。看一看你找到的任何一篇论文都比你最初的论文做得好吗？如果是的话，那么首先就放弃你正在看的Paper，并保留你找到的新Paper。 Google学术搜索的另一个很酷的功能是，您可以找到引用特定论文的论文。这真的很棒，因为您所要做的就是遵循从一篇论文到下一篇论文的引文链，您将找到该领域的最新论文。从一个起点寻找好的论文就是要寻找当前论文引用的论文，以及引用当前论文的论文。通过及时来回移动，你会找到既高质量又符合您需求的Paper。
 
 Important: note that at this stage of simple exploration and reckoning, you should not be reading and fully understand the papers. This search for the right paper should be done just by skimming over the papers and using your instinct to detect the garbage (this comes with experience).
 
+重要提示：注意在简单探索和推算的这个阶段，你不用阅读并完全理解论文。 这种搜索正确的论文应该只是通过浏览论文并用你的直觉来判断论文是否对你有用（经验总结）。
+
 ### 3.2 – Do not read on the screen
+
+### 3.2 - 不要阅读电子版
 
 Print the publication on hard paper and read the paper version. Also, do not reduce the size in order to print more on each page. Yes, you will save three sheets of paper, but you will lose time as you will get tired faster reading these tiny characters. Good font size for reading is between 11 and 13 points.
 
+将论文打印出来阅读纸质版。也不要为了节省纸张就缩减字号。的确，你可能会省下三张纸，但你会因阅读小字号很快赶到疲倦而浪费时间。
+
 ### 3.3 – Good timing and location
+
+### 3.3 - 时间地点很重要
 
 Do not read a paper in the middle of the night, do it at a moment of the day when your brain is still fresh. Also, find a quiet area, and use good lighting. When I read, I have a desk lamp pointing directly at the document.
 
+不要在深夜阅读paper，在你大脑最清醒的时刻去阅读论文，同样的，还要找一个安静、光线良好的地方。我阅读论文时，都会有一个台灯直接照向桌面。
+
 ### 3.4 – Marker and notes
+
+### 3.4 - 好记性不如烂笔头
 
 Highlight the important information with a marker, and take notes in the margin of whatever idea that pops in your head as you read.
 
+使用记号笔将重要的信息标记出来，将阅读过程中你脑子蹦出来的任何想法记录下来。
+
 ### 3.5 – Know the definitions of all the terms
+
+### 3.5 - 了解术语的意义
 
 When you are used to read mostly news articles and fiction, your brain is trained to fill-in meaning for words that you do not know, by using context as a deduction device. Reading scientific publications is a different exercise, and one of the biggest mistake is to assume false meaning for a word. For instance in this sentence “The results of this segmentation approach still suffer from blurring artifacts”. Here two words, “segmentation”, and “artifacts”, have a general meaning in English, but also have a particular meaning in the domain of Computer Vision. If you do not know that these words have a particular meaning in this paper, then while reading without paying attention, your brain will fill-in the general meaning, and you might be missing some very important information. Therefore you must (i) avoid assumptions about words, and whenever in doubt look up the word in the context of the domain the publication was written, and (ii) write a glossary on a piece of paper of all the concepts and vocabulary specific to the publication that you did not know before. If you encounter for the first time concepts such as “faducial points” and “piece-wise affine transform”, then you should look-up their precise definitions and write them down in your glossary. Concepts are language-enabled brain shortcuts, and allow you to understand the intent of the authors faster.
 
+当你习惯了阅读新闻和小说后，你的大脑像一个扣除装置一样根据上下文自动补充了那些你不知道的单词。阅读论文是一个不同的练习，其中一个最大的问题就是会错意。例如在这个句子中，“The results of this segmentation approach still suffer from blurring artifacts”。这里有两个单词，“segmentation”, and “artifacts”，这在日常英语中很简单，但是在计算机领域中它却有着特殊的含义。如果你不知道这些单词在这篇文章中的特殊含义，再加上阅读时没有很好的集中注意力，那么你的大脑就会自动脑补了这些单词的意思，你可能会因此错过一些重要的信息。所以你必须：(1)避免猜测单词的意思，每当出现疑问时，在出版物的上下文查找单词。(2)将此前你不知道的词汇和概念做一个词汇表写在一张纸上。如果你第一次遇到诸如“faducial points”和“piece-wise affine transform”这样的概念，那么你应该查询它们的精确定义并将它们写在你的词汇表中。概念是支持语言的大脑的捷径，会帮助你快速理解作者所要表达的意图。
+
 ### 3.6 – Look for statistical analysis in the conclusion
 
-If the authors present only one curve from their algorithm and one curve from another algorithm, and say “look, it’s 20% more accurate”, then you know you’re reading garbage. What you want to read is: “Over a testing set of N instances, our algorithm shows significant improvement with a p-value of 5% using a two-sample t-test.” The use of statistical analysis shows a minimum of driving from the author, and is a good proof that the results can be trusted for generalization (unless the authors lied to make their results look more sexy, which can always happen).
+### 3.6 - 在结论中寻找统计分析
+
+If the authors present only one curve from their algorithm and one curve from another algorithm, and say “look, it’s 20% more accurate”, then you know you’re reading garbage. What you want to read is: “Over a testing set of N instances, our algorithm shows significant improvement with a p-value of 5% using a two-sample t-test.” **The use of statistical analysis shows a minimum of driving from the author**, and is a good proof that the results can be trusted for generalization (unless the authors lied to make their results look more sexy, which can always happen).
+
+如果作者仅仅从他们的算法中提出一条曲线而从另一个算法中提出另一条曲线，然后说“看，它的准确性提高了20%”，你就应该意识到你读的是一个垃圾。你要读的内容应该是“在N个实例的测试集中，我们的算法显示出明显的改进，使用双样本T检验，P值为5%。”**统计分析的使用展示了作者的最先动力**，并且很好的证明了结果可用于推广（除非作者谎称他们的结果更好，这经常发生）。
 
 ### 3.7 – Make sure the conclusions are demonstrating that the paper is doing what you need
 
+### 3.7 - 确定结论证明了论文做的是你需要的
+
 Let’s say you want an algorithm that can find any face in a picture. The authors of the paper say in the conclusion that their model was trained using 10 poses from 80 different people (10 x 80 = 800 pictures), and that the accuracy of face detection with the training set was 98%, but was only 70% with the testing set (picture not used during training). What does this mean? This means that apparently, the algorithm has issues to generalize properly. It performs well when used on the training set (which is useless), and perform worse when used in real-world cases. What you should conclude at this point is that maybe, this paper is not good enough for what you need.
+
+如果你想找一个能够识别图片中人脸的算法，该论文的作者在结论中说，他们模型是使用来自80个不同人的10个姿势（10*80=800）进行训练的，并且使用训练集的面部检测的准确率为98%，但是只是用了70%的训练集。显然，这意味着算法推广有问题。它在训练集上表现良好（这并没有什么卵用），在实际使用中可能更差。在这一点上你应该学到，这篇论文可能不能满足你的需要。
 
 ### 3.8 – Pay attention to the input data used by the authors
 
+### 3.8 - 留意作者使用的输入数据
+
 If you want to perform face detection with a webcam, and the authors have used pictures taken with a high-definition camera, then there are chances that the algorithm will not perform as well in your case as it did for the authors. Make sure that the algorithm was tested on data similar to yours or you will end up with a great implementation that is completely unusable in your real-world setup.
+
+如果你想使用网络摄像头进行人脸识别，而作者使用了高清摄像头，那么可能会出现算法在某些情况下无法像作者那样表现良好。确保算法的测试数据与你的数据类似，否则最终可能会得到一个即使优秀但在实际中完全无法应用的代码。
 
 ### 3.9 – Authors are humans
 
+### 3.9 - 人无完人
+
 The authors are humans, and therefore they make mistakes. Do not assume that the authors are absolutely right, and in case an equation is really hard to understand or follow, you should ask yourself whether or not the authors made a mistake there. This could just be a typo in the paper, or an error in the maths. Either case, the best way to find out is to roll out the equations yourself, and try to verify their results.
+
+金无赤足，人无完人。不要认为作者是绝对正确的。如果一个方程式真的很难理解或遵循，你就应该怀疑作者是否在哪里犯了错。这可能只是一个拼写错误或者数学错误。无论是哪种情况，最好的结果是自己推出方程式，并尝试去验证其结果。
 
 ### 3.10 – Understand the variables and operators
 
+### 3.10 - 搞懂变量和函数
+
 The main task during the implementation of a publication is the translation of math equations in the paper into code and data. This means that before jumping into the code, you must understand 100% of the equations and processes on these equations. For instance, “C = A . B” could have different meaning. A and B could be simple numbers, and the “.” operator could simply be a product. In that case, C would be the product of two numbers A and B. But maybe that A and B are matrices, and that “.” represents the matrix product operator. In that case, C would be the product matrix of the matrices A and B. Yet another possibility is that A and B are matrices and that “.” is the term-by-term product operator. In that case, each element C(i,j) is the product of A(i,j) and B(i,j). Notations for variables and operators can change from one mathematical convention to another, and from one research group to another. Make sure you know what each variable is (scalar, vector, matrix or something else), and what every operator is doing on these variables.
+
+一篇论文的实现主要是将论文中的数学方程式转换成代码和数据。这意味着在上手编码之前，你必须完全了解这些方程和过程。例如，“C = A . B”可能有不同含义。A和B可以是简单的数字，“.”可能表示乘积。在这种情况下，C可以是数字AB的乘积，但是AB可能是矩阵，而“.”代表矩阵乘积。在这种情况下，每个元素C(i,j)是A(i,j)和B(i,j)的乘积。变量和运算符的符号也可以从一个数学约定变成另一个，也可以从一个研究组变成另一个。要确保明白每个变量是什么（标量、向量、矩阵或其他），以及每个运算符对这些变量的作用。
 
 ### 3.11 – Understand the data flow
 
+### 3.11 - 搞懂数据流
+
 A paper is a succession of equations. Before you start coding, you must know how you will plug the output of equation N into the input of equation N+1.
+
+一篇论文是一系列的等式。在你开始编码之前，你必须知道怎么将等式N的输出放到等式N+1的输入中。
 
 ## 4 – Prototyping
 
@@ -265,7 +312,3 @@ Generating data to experiment with your implementation can be very time consumin
 In this article, I have presented good practices for the implementation of a scientific publication. Remember that these are only based on my personal experience, and that they should not be blindly followed word for word. Always pay attention when you read and code, and use your judgement to determine which of the guidelines presented above fit your project. Maybe some of the practices will hurt your project more than it will help it, and that’s up to you to find out.
 
 Now go implement some cool algorithm!
-
-
-
-**by Emmanuel Goossaert from http://codecapsule.com/2012/01/18/how-to-implement-a-paper/**
