@@ -3,7 +3,7 @@ layout: post
 title: '[译]How to implementing an algorithm from a scientific paper'
 date: 2018-10-18
 author: Emmanuel Goossaert
-tags: 荐读
+tags: 他山之玉
 ---
 
 >
@@ -213,7 +213,11 @@ A paper is a succession of equations. Before you start coding, you must know how
 
 ## 4 – Prototyping
 
+## 4 - 模型
+
 Once you have read and understood the paper, it’s time to create a prototype. This is a very important step and avoiding it can result in wasted time and resources. Implementing a complex algorithm in languages such as C, C++ or Java can be very time consuming. And even if you have some confidence in the paper and think the algorithm will work, there is still a chance that it won’t work at all. So you want to be able to code it as quickly as possible in the dirtiest way, just to check that it’s actually working.
+
+如果你阅读并理解了论文，就可以创建模型了。 这是非常重要的一步，没有这步可能导致浪费时间和资源。 在诸如C，C ++或Java之类的语言中实现复杂算法可能非常耗时。 即使你对论文有信心并认为算法可行，但它仍然有可能根本不起作用。 所以你应该以最快的方式尽快编码去检查它是否真的有效。
 
 ### 4.1 – Prototyping solutions
 

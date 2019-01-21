@@ -124,11 +124,10 @@ main()
 
 #### References
 
-1[百度百科：稳定婚姻问题](https://baike.baidu.com/item/%E7%A8%B3%E5%AE%9A%E5%A9%9A%E5%A7%BB%E9%97%AE%E9%A2%98/12760040?fr=aladdin)
+1.[百度百科：稳定婚姻问题](https://baike.baidu.com/item/%E7%A8%B3%E5%AE%9A%E5%A9%9A%E5%A7%BB%E9%97%AE%E9%A2%98/12760040?fr=aladdin)
 
 2.[Github:Schachte/stable-matching-algorithm](https://github.com/Schachte/stable-matching-algorithm/blob/master/stable_matching.py)
 
 3.[“媒人”已上天堂：诺奖经济学家夏普利和他的匹配理论(组图)](http://business.sohu.com/20160315/n440476328.shtml)
 
 
-  
