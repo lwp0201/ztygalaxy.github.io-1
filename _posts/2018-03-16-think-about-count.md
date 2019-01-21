@@ -14,11 +14,11 @@ tags: 笔记
 
 ​	如下
 
-​	![加载失败](https://raw.githubusercontent.com/ztygalaxy/ztygalaxy.github.io/master/images/qlz_al.jpg)
+​	![加载失败](../../../assets/img/qlz_al.jpg)
 
 ​	识别基本流程
 
-​	![效果图](https://raw.githubusercontent.com/ztygalaxy/ztygalaxy.github.io/master/images/qlz_lc.jpg)
+​	![效果图](../../../assets/img/qlz_lc.jpg)
 
 ​	这样存在的一个问题就是种子出现缺口时，可能会导致误判。拟南芥种子因为十分小，目前测试的100-200数据误差可以忽略不计。不过从算法的复用性及准确性看，边缘检测、连通区域计数才是王道啊。
 
