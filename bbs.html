@@ -11,8 +11,11 @@ header-img: assets/img/bp.jpg
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}"
 style="{% if page.header-img %}background: url({{ page.header-img | prepend: site.baseurl }}) no-repeat center center; background-size: cover;{% endif %}">
     <h2>留言板</h2>
+	
 </div>
-
+	<center>
+    <h4  style="margin: 30px">道路千万条 文明第一条 留言不规范 亲人两行泪</h4>
+	</center>
 	<!--Gitalk评论start  -->
     {% if site.gitalk.enable %}
         <!-- 引入Gitalk评论插件  -->
