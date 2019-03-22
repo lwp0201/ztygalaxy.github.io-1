@@ -48,6 +48,7 @@
     </div>
     {% endif %}
 	<!--Gitalk评论start  -->
+	<div class="markdown-body">
     {% if site.gitalk.enable %}
         <!-- 引入Gitalk评论插件  -->
         <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
@@ -69,6 +70,7 @@
             gitalk.render('gitalk-container');
         </script>
 	{% endif %}
+	</div>
     <!-- Gitalk end -->
   </div>
 
