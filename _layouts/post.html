@@ -40,19 +40,11 @@
 
     <article class="markdown-body">
       {{ page.content }}
-    </article>
-
-    {% if site.social-share %}
-    <div class="social-share-wrapper">
-      <div class="social-share"></div>
-    </div>
-    {% endif %}
-	{% if site.gitalk.enable %}
-	<div>
+	  {% if site.gitalk.enable %}
         <!-- 引入Gitalk评论插件  -->
         <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
         <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-        <div id="gitalk-container"  style="margin:0 auto;width:56%"></div>
+        <div id="gitalk-container"  style="margin:0 auto;"></div>
         <!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
         <!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
         <script src="{{ site.baseurl }}/assets/js/md5.min.js"></script>
@@ -69,7 +61,13 @@
             gitalk.render('gitalk-container');
         </script>
 		{% endif %}
-	</div>
+    </article>
+
+    {% if site.social-share %}
+    <div class="social-share-wrapper">
+      <div class="social-share"></div>
+    </div>
+    {% endif %}
   </div>
   
 
