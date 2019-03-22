@@ -33,6 +33,16 @@ nightMode: true
 comments:
   disqus: false
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+  
+# Gitalk
+gitalk: 
+  enable: true    #是否开启Gitalk评论
+  clientID: 8f8660381758b0049937                          #生成的clientID
+  clientSecret: 8a5c34628814013b4ddca21363787e9e1bd2a51f #生成的clientSecret
+  repo: ztygalaxy.github.io    #仓库名称
+  owner: ztygalaxy    #github用户名
+  admin: ztygalaxy
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
@@ -52,7 +62,7 @@ postPatterns: 'food'
 sns:
   github: '//github.com/ztygalaxy'
   zhihu: '//zhihu.com/people/zhang-tian-yu-65-49/activities'
-  email: 'mailto:tyzhang@hdu.edu.cn'
+  email: 'mailto:zhnagty1996@163.com'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
