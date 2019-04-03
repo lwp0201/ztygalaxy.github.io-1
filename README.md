@@ -13,6 +13,13 @@
 ### Gitalk评论插件
 [Gitalk](https://tyzhang.tk/2019/03/22/gitalk.html)
 
+### 朋友们
+
+[Freedomly](https://github.com/Felon03)    [MQQM](https://github.com/MQQM)    [SiwenZheng](https://github.com/SiwenZheng)
+
+
+
+
 Powered by [Jekyll](https://jekyllrb.com/) | [Theme H2O](https://github.com/kaeyleo/jekyll-theme-H2O)
 
 ![QRCODE](assets/img/qrcode_zdplxs_word.png)
