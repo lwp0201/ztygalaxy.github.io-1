@@ -10,7 +10,7 @@ baseurl: ''
 # Navigation links
 nav:
   home: '/'
-  bbs: '/bbs.html'
+#  bbs: '/bbs.html'
   tags: '/tags.html'
 
 # Footer
